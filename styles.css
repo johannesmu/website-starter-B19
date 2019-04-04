@@ -36,3 +36,41 @@ footer {
   min-height: 150px;
   color: white;
 }
+
+.about-banner {
+  background-image: url('beautiful-daylight-environment-709552.jpg');
+  min-height: 40vh;
+  background-size: cover;
+  background-position: center center;
+  padding-top:20vh;
+}
+.about-banner h1{
+  text-align: center;
+  color:aliceblue;
+  font-size: 200%;
+  text-shadow: 5px 5px 8px black;
+}
+
+label {
+  display: block;
+  margin-top: 2em;
+  font-weight: bold;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button[type="reset"] {
+  background-color: aqua;
+  padding: 1em;
+}
+button[type="submit"] {
+  background-color:darkgreen;
+  padding: 1em;
+  color: white;
+}
